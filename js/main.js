@@ -146,7 +146,9 @@ jQuery(function($) {'use strict',
 	map.setStyle("map_style");
 }());
 
-$('a[href^="#"]').click(function(){
+
+
+$('.scroll').click(function(){
 	var the_id = $(this).attr("href");
 
 	$('html, body').animate({
